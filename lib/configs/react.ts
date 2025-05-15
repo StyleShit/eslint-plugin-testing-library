@@ -5,6 +5,7 @@
 export = {
 	plugins: ['testing-library'],
 	rules: {
+		'testing-library/await-async-act': 'error',
 		'testing-library/await-async-events': [
 			'error',
 			{ eventModule: 'userEvent' },
